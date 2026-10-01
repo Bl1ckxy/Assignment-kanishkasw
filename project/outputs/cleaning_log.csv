@@ -1,0 +1,12 @@
+rule,description,rows_before,rows_removed,rows_after,note
+R0,raw orders rows,5961005,0,5961005,baseline
+R1,dedupe on id (keep max updated_at),5961005,0,5961005,dup ids possible: no PK in dump
+R2,"valid order_date (non-null, >= 1971-01-02)",5961005,0,5961005,
+R3,"in FY window (ist_date in [2024-04-01, 2025-04-01))",5961005,17115,5943890,
+R4,non-test branch,5943890,0,5943890,
+R5,status rule (paid/completed),5943890,508440,5435450,
+R6,grand_total >= 0,5435450,0,5435450,
+R0d,raw order_details rows,7426133,0,7426133,baseline
+R1d,dedupe details on id,7426133,0,7426133,dup ids possible
+R7d,orphan detail rows (order_id not in raw orders),7426133,1397,7424736,left join to raw orders
+R8d,detail rows outside clean scope (order not in orders_clean),7424736,638060,6786676,FY/test/status filtered orders

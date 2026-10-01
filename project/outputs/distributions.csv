@@ -1,0 +1,35 @@
+column,value,n
+orders.order_status,3,5960362
+orders.order_status,1,642
+orders.order_status,4,1
+orders.cd_status,1,5961005
+orders.paid_or_cancel,paid,5450311
+orders.paid_or_cancel,cancel,402133
+orders.paid_or_cancel,pending,108422
+orders.paid_or_cancel,rejected,138
+orders.paid_or_cancel,,1
+orders.order_through,mobile app,3585587
+orders.order_through,sok,1347463
+orders.order_through,pos,1027955
+orders.mode_of_transaction,paytm,2379175
+orders.mode_of_transaction,Upi,1274930
+orders.mode_of_transaction,cca,563848
+orders.mode_of_transaction,razorpay,557606
+orders.mode_of_transaction,Cash,445616
+orders.mode_of_transaction,QR,387085
+orders.mode_of_transaction,Card,267125
+orders.mode_of_transaction,,84958
+orders.mode_of_transaction,mode of transaction,662
+orders.is_refunded,0,5960070
+orders.is_refunded,1,935
+orders.branch_id,2,2480228
+orders.branch_id,1,2344842
+orders.branch_id,9,653115
+orders.branch_id,4,443902
+orders.branch_id,10,38477
+orders.branch_id,3,432
+orders.branch_id,11,8
+orders.branch_id,-1,1
+order_details.order_status,1,7425093
+order_details.order_status,0,841
+order_details.order_status,2,199

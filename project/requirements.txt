@@ -1,0 +1,8 @@
+# Pinned from the project venv (Python 3.11.9, created with py -3.11)
+PyMySQL==1.2.3
+pandas==3.0.6
+numpy==2.4.6
+matplotlib==3.11.2
+pillow==12.3.0
+statsmodels==0.15.0
+scipy==1.17.1

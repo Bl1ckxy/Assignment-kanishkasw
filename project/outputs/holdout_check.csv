@@ -1,0 +1,18 @@
+metric,value
+branch_id,2
+branch_name,Embassy Tech Village
+data_cutoff_as_stored_ist,2025-04-01 17:11:47
+branch2_last_order_ist,2025-04-01 17:11:27
+holdout_outside_fy,"yes (2025-04-01, after FY end 2025-03-31)"
+holdout_partial_day,yes (dump stops mid-day)
+forecast_day1_full,9752.0
+actual_partial_day,5476.0
+tuesday_dow,3
+tuesday_orders_fy,475937
+tuesday_orders_to_cutoff,280317
+expected_share_before_cutoff,0.588979
+expected_full_forecast_x_share,5743.7
+error_actual_minus_expected,-267.7
+error_pct,-4.66
+training_max_ist_date,2025-03-31
+rows_on_2025_04_01_in_orders_clean,0

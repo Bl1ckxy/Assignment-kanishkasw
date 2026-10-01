@@ -1,0 +1,8 @@
+date,dow,model,forecast_orders,lo80,hi80,actual
+2025-04-01,Tue,seasonal_naive,9752.0,9016.2,10411.8,5476
+2025-04-02,Wed,seasonal_naive,9314.0,8578.2,9973.8,
+2025-04-03,Thu,seasonal_naive,8590.0,7854.2,9249.8,
+2025-04-04,Fri,seasonal_naive,6928.0,6192.2,7587.8,
+2025-04-05,Sat,seasonal_naive,653.0,0.0,1312.8,
+2025-04-06,Sun,seasonal_naive,154.0,0.0,813.8,
+2025-04-07,Mon,seasonal_naive,2807.0,2071.2,3466.8,

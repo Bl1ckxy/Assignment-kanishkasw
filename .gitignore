@@ -1,0 +1,21 @@
+# raw data — never commit (10+ GB dump, split files, PII)
+*.sql
+split/
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# run logs (ops detail; aggregates live in outputs/)
+logs/
+
+# living context / working notes (not a deliverable)
+Context.md
+
+# local ops helper, not a deliverable (reads MYSQL_PWD; no password inside)
+reset_root_password.cmd
+
+# editors / OS
+.vscode/
+Thumbs.db

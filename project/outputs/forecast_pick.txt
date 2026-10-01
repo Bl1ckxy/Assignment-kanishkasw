@@ -1,0 +1,2 @@
+model=seasonal_naive
+reason=lowest pooled wMAPE 0.102 (seasonal-naive 0.102)
